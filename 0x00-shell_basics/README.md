@@ -1,0 +1,22 @@
+total 80
+-rwxr-xr-x 1 root root  16 Nov 30 08:29 0-current_working_directory
+-rwxr-xr-x 1 root root  36 Nov 30 08:29 100-lets_move
+-rwxr-xr-x 1 root root  18 Nov 30 08:29 101-clean_emacs
+-rwxr-xr-x 1 root root  39 Nov 30 08:29 102-tree
+-rwxr-xr-x 1 root root  21 Nov 30 08:29 103-commas
+-rwxr-xr-x 1 root root  17 Nov 30 08:29 10-back
+-rwxr-xr-x 1 root root  30 Nov 30 08:29 11-lists
+-rwxr-xr-x 1 root root  31 Nov 30 08:29 12-file_type
+-rwxr-xr-x 1 root root  33 Nov 30 08:29 13-symbolic_link
+-rwxr-xr-x 1 root root  30 Nov 30 08:29 14-copy_html
+-rwxr-xr-x 1 root root  15 Nov 30 08:29 1-listit
+-rwxr-xr-x 1 root root  15 Nov 30 08:29 2-bring_me_home
+-rwxr-xr-x 1 root root  18 Nov 30 08:29 3-listfiles
+-rwxr-xr-x 1 root root  21 Nov 30 08:29 4-listmorefiles
+-rwxr-xr-x 1 root root  20 Nov 30 08:29 5-listfilesdigitonly
+-rwxr-xr-x 1 root root  42 Nov 30 08:29 6-firstdirectory
+-rwxr-xr-x 1 root root  50 Nov 30 08:29 7-movethatfile
+-rwxr-xr-x 1 root root  45 Nov 30 08:29 8-firstdelete
+-rwxr-xr-x 1 root root  42 Nov 30 08:29 9-firstdirdeletion
+-rw-r--r-- 1 root root   0 Nov 30 08:58 README.md
+-rwxr-xr-x 1 root root 688 Nov 30 08:29 school.mgc
