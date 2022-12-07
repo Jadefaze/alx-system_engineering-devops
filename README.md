@@ -1,2 +1,2 @@
-![alx-banner](./pictures/ALX_banner.jpg =160x64)
+<img src="./pictures/ALX_banner.jpg" width="160" height="64" />
 # alx-system_engineering-devops
