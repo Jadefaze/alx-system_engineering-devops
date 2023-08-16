@@ -4,6 +4,7 @@
  * _islower - checks whether lower or not
  *
  * Description: as above
+ * @c: character to check
  * Return: void Always.
  */
 
@@ -17,5 +18,4 @@ int _islower(int c)
 	{
 		return (0);
 	}
-	
 }
