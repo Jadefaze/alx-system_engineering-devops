@@ -11,9 +11,8 @@
 void print_rev(char *s)
 {
 	/*find length */
-
 	int i;
-	int l;
+	int index;
 
 	i = 0;
 	while (s[i] != '\0')
@@ -22,11 +21,13 @@ void print_rev(char *s)
 	}
 
 	/*using the length - i */
-	for (l = i - 1; l >= 0; l--)
+	index = i-1;
+	while (index >= 0)
 	{
-		_putchar(s[l]);
-		l--;
-	}
+		_putchar(s[index]);
+		index--;
+
+	}	
 	
 
 	_putchar('\n');
