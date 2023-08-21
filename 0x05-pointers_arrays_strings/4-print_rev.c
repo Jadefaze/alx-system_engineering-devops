@@ -21,15 +21,14 @@ void print_rev(char *s)
 	}
 
 	/*using the length - i */
-	index = i-1;
+	index = i - 1;
 	while (index >= 0)
 	{
 		_putchar(s[index]);
 		index--;
 
-	}	
-	
+	}
+
 
 	_putchar('\n');
 }
-
