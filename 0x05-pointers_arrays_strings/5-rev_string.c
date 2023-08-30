@@ -10,11 +10,14 @@
 
 void rev_string(char *s)
 {
-	/*find length */
+	/**
+	 * i - size of string
+	 * start - beginning of string
+	 * end - end of string
+	 */
 
-	int i;
-	int l;
-	int k;
+	int i, start, end;
+	char temp = 0;
 
 	i = 0;
 	while (*(s + i) != '\0')
@@ -22,8 +25,18 @@ void rev_string(char *s)
 		i++;
 	}
 
-	/*using the length - i */
+	start = 0;
+	end = i - 1;
 
-	while (	
+	/*iterate in reverse */
+
+	while (start < end)
+	{
+		temp = s[start];
+		s[start] = s[end];
+		s[end] = temp;
+		start++;
+		end--;
+	}
+
 }
-
