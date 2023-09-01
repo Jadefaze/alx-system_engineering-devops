@@ -25,14 +25,17 @@ void puts_half(char *str)
 	}
 	if (i % 2 == 0)
 	{
-		for (n = i / 2; n <= i; n++)
+		n = i / 2;
+		while (*(str + n) != '\0')
 		{
 			_putchar(*(str + n));
+			n++;
 		}
 	}
 	else
 	{
-		for (n = (i + 1) / 2; n <= i; n++)
+		n = (i + 1) / 2;
+		while (*(str + n) != '\0')
 		{
 			_putchar(*(str + n));
 		}
