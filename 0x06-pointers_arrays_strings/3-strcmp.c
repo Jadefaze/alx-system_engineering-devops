@@ -4,10 +4,29 @@
  * _strcmp - to compare strings
  * @s1: the first string
  * @s2: the second string
- * Return: pointer to dest
+ * Return: 0 - equal strings
+ * 1 - s1 greater than s2
+ *-1 - s1 less than s2
  */
 
-char *_strcmp(char *s1, char *s2)
+int _strcmp(char *s1, char *s2)
 {
-	return (dest);
+	int flag;
+	int i;
+
+	while (*(s1 + i))
+	{
+		if (*(s1 + i) == *(s2 + i))
+		{
+			flag = 0;
+		}
+		else
+		{
+			flag = *(s1 + i) - *(s2 + i);
+			return (flag);
+		}
+		i++;
+	}
+
+	return (flag);
 }
