@@ -10,21 +10,35 @@
 char *leet(char *s)
 {
 	int i;
+	int j;
+	int j2;
+	int i2;
+	char *lower = "aeotl";
+	char *upper = "AEOTL";
+	char *leets = "43071";
 
 	i = 0;
+	j = 0;
+
 	while (*(s + i))
 	{
-		if (s[i] == 'a' || s[i] == 'A')
-			s[i] = '4';
-		else if (s[i] == 'o' || s[i] == 'O')
-			s[i] = '0';
-		else if (s[i] == 'e' || s[i] == 'E')
-			s[i] = '3';
-		else if (s[i] == 't' || s[i] == 'T')
-			s[i] = '7';
-		else if (s[i] == 'l' || s[i] == 'L')
-			s[i] = '1';
 		i++;
+	}
+
+	while (lower[j])
+	{
+		j++;
+	}
+
+	for (i2 = 0; i2 < i; i2++)
+	{
+		for (j2 = 0; j2 < j; j2++)
+		{
+			if (s[i2] == lower[j2] || s[i2] == upper[j2])
+			{
+				s[i2] = leets[j2];
+			}
+		}
 	}
 	return (s);
 }
