@@ -9,22 +9,15 @@
 
 char *leet(char *s)
 {
-	int j;
 	int j2;
 	int i2;
 	char *lower = "aeotl";
 	char *upper = "AEOTL";
 	char *leets = "43071";
 
-	j = 0;
-	while (lower[j])
-	{
-		j++;
-	}
-
 	for (i2 = 0; s[i2] != '\0'; i2++)
 	{
-		for (j2 = 0; j2 < j; j2++)
+		for (j2 = 0; lower[j2] != '\0'; j2++)
 		{
 			if (s[i2] == lower[j2] || s[i2] == upper[j2])
 			{
