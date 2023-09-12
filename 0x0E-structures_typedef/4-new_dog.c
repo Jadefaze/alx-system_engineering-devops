@@ -22,7 +22,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 	length_owner = 0;
 	while (name[length_owner] != '\0')
 		length_owner++;
-	/*allocate memory for newDog elements, name, owner*/
+
 	newDog->name = (char *)malloc(length_name + 1);
 	newDog->owner = (char *)malloc(length_owner + 1);
 
