@@ -11,14 +11,13 @@ int main(int argc, char **argv)
 	int i, rem, change, new_change, num;
 	int coins[5] = {25, 10, 5, 2, 1};
 
-	rem = change = 0;
+	rem = change = new_change = 0;
 	if (argc != 2)
 	{
 		printf("Error\n");
 		return (1);
 	}
 	num = atoi(argv[1]);
-	new_change = 0;
 	for (i = 0; i < 5; i++)
 	{
 		if (num >= coins[i] || new_change >= coins[i])
@@ -36,5 +35,6 @@ int main(int argc, char **argv)
 			}
 		}
 	}
+	printf("%d\n", 0);
 	return (0);
 }
