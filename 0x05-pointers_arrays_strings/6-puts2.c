@@ -14,12 +14,16 @@ void puts2(char *str)
 	printFlag = 1;
 	while (*str != '\0')
 	{
-		if(printFlag)
+		if (printFlag)
 		{
 			_putchar(*str);
 		}
 		printFlag = !printFlag;
 		str++;
+		if (*str == '\0')
+		{
+			_putchar('\n');
+			return;
+		}
 	}
-	_putchar('\n');
 }
