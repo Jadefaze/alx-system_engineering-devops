@@ -24,7 +24,7 @@ void print_array(int *a, int n)
 	{
 		printf("%d", *(a + j));
 		j++;
-		if (*(a + j))
+		if (j < n)
 		{
 			printf(", ");
 		}
